@@ -10,7 +10,7 @@ $ npm install -g serverless #instala a dependencia
 $ sls --version # verifica a versão 
 ```
 
-**Cria o prijeto em python**<br/>
+**Cria o projeto em python**<br/>
 ```sh
 $ sls create --template aws-python3 #cria o projeto em pythob
 ```
