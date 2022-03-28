@@ -15,6 +15,11 @@ $ sls --version # verifica a versão
 $ sls create --template aws-python3 #cria o projeto em pythob
 ```
 
+**Testa o código**<br/>
+```sh
+sls invoke local -f <funcao_principal>
+```
+
 **Envia o código para o lambda**<br/>
 ```sh
 $ sls deploy #envia para amazon
