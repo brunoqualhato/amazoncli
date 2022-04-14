@@ -77,7 +77,7 @@ $ sls deploy #envia para amazon
 
 **Envia o Código para o Bucket**
 ```sh
-$ aws s3 sync <diretorio/Do/Projeto> s3://<url-bucket> --profile <perfil>
+$ aws s3 sync <diretorio/Do/Projeto> s3://<nome-bucket> --profile <perfil>
 ```
 
 **Apaga cache e propaga novamente**
